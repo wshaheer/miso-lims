@@ -82,7 +82,7 @@ header.without-description h1 {
 header p {
   margin: 0;
   color: #61778B;
-  width: 300px;
+  /* width: 300px; */
   font-size: 13px;
 }
 header p.view {
@@ -98,13 +98,16 @@ header p.view small {
   font-weight: 400;
 }
 header ul {
+  /*
   margin: 0;
-  padding: 0;
-  list-style: none;
-  position: absolute;
-  z-index: 1;
   right: 20px;
   top: 20px;
+  */
+
+  padding: 0;
+  list-style: none;
+  position: relative;
+  z-index: 1;
   height: 38px;
   padding: 1px 0;
   background: #5198DF;
